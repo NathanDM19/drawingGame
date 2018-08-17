@@ -1,0 +1,49 @@
+body {
+}
+#can {
+  position: relative;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#colours {
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.colourChoice {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 10px auto;
+}
+
+#black {
+  background: black;
+}
+
+#green {
+  background: green;
+}
+
+#blue {
+  background: blue;
+}
+
+#red {
+  background: red;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#orange {
+  background: orange;
+}
+
+#white {
+  border: 1px solid black;
+}

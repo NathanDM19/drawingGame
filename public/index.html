@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Draw</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+</head>
+    <body onload="init()">
+      <canvas id="can" width="800" height="600"></canvas>
+      <div id="colours">
+        Colours
+        <div class="colourChoice" id="black" onclick="color(this)"></div>
+        <div class="colourChoice" id="green" onclick="color(this)"></div>
+        <div class="colourChoice" id="blue" onclick="color(this)"></div>
+        <div class="colourChoice" id="red" onclick="color(this)"></div>
+        <div class="colourChoice" id="yellow" onclick="color(this)"></div>
+        <div class="colourChoice" id="orange" onclick="color(this)"></div>
+        Eraser
+        <div class="colourChoice" id="white" onclick="color(this)"></div>
+      </div>
+
+      <img id="canvasimg" style="position:absolute;top:10%;left:52%;" style="display:none;">
+      <br>
+      <input type="button" value="clear" id="clr" onclick="erase()">
+    </body>
+</html>
